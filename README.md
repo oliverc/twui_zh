@@ -1,18 +1,18 @@
 # TwUI 0.1.0
 
-TwUI is a hardware accelerated UI framework for Mac, inspired by UIKit.  It enables:
+TwUI 是一个具备硬件加速能力的 UI 框架，受到 UIKit 的启发，供 OS X 桌面开发使用。它具备：
 
-* GPU accelerated rendering backed by CoreAnimation
-* Simple model/view/controller development familiar to iOS developers
+* 由 CoreAnimation 提供的 GPU 硬件渲染能力。
+* 简易的 MVC 开发模式。
 
-It differs from UIKit in a few ways:
+它和 UIKit 的不同
 
-* Simplified table view cells
-* Block-based layout and drawRect
-* A consistent coordinate system (bottom left origin)
-* Sub-pixel text rendering
+* 简化的 Table View 单元。
+* 块桩布局和 drawRect。
+* 统一的坐标系 (以左下为原点)。
+* 次像素文字渲染。
 
-# Setup
+# 安装
 
 To use the current development version, include all the files in your project and import TUIKit.h. Set your target to link to the ApplicationServices and QuartzCore frameworks.  Be sure to add NS_BUILD_32_LIKE_64 to your preprocessor flags.
 
